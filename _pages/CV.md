@@ -3,11 +3,30 @@ permalink: /cv/
 title: "CV"
 ---
 
-# Publications
+## Publications
 
 *The Essence of Program Semantics Visualizers: A Three-Axis Model*  
-**PLATEAU 2020**: *Josh Pollock*, Grace Oh, Eunice Jun, Philip J. Guo, Zachary Tatlock
+**PLATEAU '20**: *Josh Pollock*, Grace Oh, Eunice Jun, Philip J. Guo, Zachary Tatlock
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+*Theia: Automatically Generating Correct Program State Visualizations*  
+**SPLASH-E '19**: *Josh Pollock*, Jared Roesch, Doug Woos, Zachary Tatlock
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+*Relay: A High-Level Compiler for Deep Learning*  
+**arXiv '19** Jared Roesch, Steven Lyubomirsky, Marisa Kirisame, Logan Weber, *Josh Pollock*, Luis Vega, Ziheng
+Jiang, Tianqi Chen, Thierry Moreau, Zachary Tatlock
+
+*Relay: A New IR for Machine Learning Frameworks*  
+**MAPL '18** Jared Roesch, Steven Lyubomirsky, Logan Weber, *Josh Pollock*, Marisa Kirisame, Tianqi Chen, Zachary
+Tatlock
+
+## Talks
+
+todo
+
+## Internships
+
+todo
+
+## Education
+
+todo
