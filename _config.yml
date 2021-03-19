@@ -113,3 +113,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# https://github.com/github/pages-gem/issues/399#issuecomment-301827749
+github: [metadata]
