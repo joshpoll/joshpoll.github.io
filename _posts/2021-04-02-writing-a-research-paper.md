@@ -1,5 +1,5 @@
 ---
-title: "Writing a Research Paper: The Meta-Guide"
+title: "Writing a Research Paper: A Meta-Guide"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
