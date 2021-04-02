@@ -221,4 +221,10 @@ Just learn it.
 # Wrapping Up
 
 - **community**
-- the paper is a medium for convincing people in the community, everything else falls out of that principle
+- the paper is a medium for convincing people in the community, everything else falls out of that
+  principle
+
+## Related Guides
+
+See Philip Guo's ["How to write a good HCI research paper (tips from senior colleagues)"
+](https://web.archive.org/web/20210402170523/https://pg.ucsd.edu/how-to-write-hci-research-paper.htm)
