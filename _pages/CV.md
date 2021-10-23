@@ -1,9 +1,9 @@
 ---
-permalink: /cv/
+# permalink: /cv/
 title: "CV"
 ---
 
-## Publications
+<!-- ## Publications
 
 [The Essence of Program Semantics Visualizers: A Three-Axis
 Model](../assets/pdfs/essence-of-program-semantics-visualizers_PLATEAU-2020.pdf)  
@@ -32,4 +32,4 @@ todo
 
 MIT, PhD Computer Science - 2020-present
 
-University of Washington, BS Computer Science with College Honors - 2016-2020
+University of Washington, BS Computer Science with College Honors - 2016-2020 -->
