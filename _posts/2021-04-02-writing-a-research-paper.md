@@ -3,10 +3,6 @@ title: "Writing a Research Paper: A Meta-Guide"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
-tags:
-  - Post Formats
-  - readability
-  - standard
 ---
 
 **These notes are a work in progress!**
