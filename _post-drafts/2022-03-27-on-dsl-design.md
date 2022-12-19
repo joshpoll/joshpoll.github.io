@@ -50,6 +50,7 @@ classical:
 alternatives:
 - PLIERS framework
 - critical reflections
+- psychology
 
 # Do We Really Know Anything?
 
