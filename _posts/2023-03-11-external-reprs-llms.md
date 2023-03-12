@@ -1,16 +1,81 @@
 ---
-title: "External Representations in the Age of Large Language Models (LLMs)"
+title: "Humans Are Not Turing Machines"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
 ---
 
-https://twitter.com/geoffreylitt/status/1599200960458260482
-- Geoffrey got ChatGPT to use debugging/print statements and it seemed to improve perf!
+One criticism of current LLMs is that they can't reliably do sophisticated math or logic problems
+out of the box that humans seem to be capable of. In essence, while humans are Turing-complete, but
+today's LLMs are not.
+
+But wait... Are humans even Turing-complete?
 
 # Humans Are Not Turing Machines
 
-Humans are not Turing Machines.
+We like to think that humans are great at complex reasoning. But put a person in a blank room with
+nothing to write on, and they're getting nowhere fast.
+
+Human thought *depends* on the ability to write, diagram, or otherwise externalize thought so that
+we can communicate ideas to others, or simply extend our own working memory.
+
+
+
+<!-- 
+
+points I want to make in this post:
+- humans are not turing machines b/c our short-term/working memory is effectively finite
+- humans + pen&paper *are* turing machines. in fact Turing's original model was of this combined system!
+- LLMs appear to work better if they are forced to write down their reasoning step-by-step, write
+  debug statements, etc.
+  - one possible explanation for this behavior is they also need some kind of external
+    representation to help them "think"
+  - or maybe it's just some sort of priming thing that statistically produces better answers?
+  - or maybe it forces them to do easier subproblems?
+- in any case, in the short-to-medium term, interfaces between humans and machines, even if those
+  machines get more and more "agency," will continue to be central to our communication. That takes
+  the form of informal representations like natural language text, art, graphic design, etc. but it also takes the form of
+  more precise representations like diagrams, code, proofs, etc.
+- In practice, there is no clear boundary between the two kinds of representation (as with many
+  things!). Frequently, representations move back and forth between formal and informal. A diagram
+  might start out on a whiteboard. A proof might start out as a sketch. And of course there are
+  Terry Tao's three stages of mathematical maturity. The friction between these modes generates a
+  wonderful fractal turbulence that we can study for a long time to come.
+- As deep learning models become more powerful and their outputs more intricate, interfaces for them
+  will become even more central and compelling problems, because as the bar for writing/generating
+  information continues to lower, the importance of reading/editing information increases.
+
+https://twitter.com/geoffreylitt/status/1599200960458260482
+- Geoffrey got ChatGPT to use debugging/print statements and it seemed to improve perf! -->
+
+
+<!-- When we compare LLMs to humans, we often place a lot of emphasis on how good LLMs are at pure
+reasoning. We tend to think that humans are great at sophisticated logic and reasoning. But put a
+human in an empty box and ask them to come up with a proof or write a novel, and they will have a
+very hard time. -->
+
+<!-- # Humans Are Not Turing Machines -->
+
+<!-- Humans are not Turing Machines. -->
+<!-- We tend to think that a Turing Machine is a model of human -->
+<!-- cognition, but that's not quite right. If we go back to Turing's original paper, we find that humans -->
+<!-- are not Turing Machines, but humans with the aid of pencil and paper are. -->
+
+## Turing Machines
+
+A Turing Machine has the following pieces:
+- a tape
+- a read/write head for the tape
+- a finite state machine that controls the read/write head
+
+But have you ever wondered where this model came from? I had never read the Turing's original paper
+until I came across some commentary about it in the conclusion to Edwin Hutchins's book about
+distribute cognition: "Cognition in the Wild."
+
+<!-- A Turing Machine has two pieces: a finite state machine and a linear tape. The finite state machine
+is a model of the human brain. The linear tape is a model of pencil and paper. -->
+
+<!-- Humans are not Turing Machines.
 - finite memory
 - error prone
 - etc.
@@ -18,7 +83,7 @@ Humans are not Turing Machines.
 Humans plus pencil and paper are Turing Machines.
 
 In fact, in Turing's original description of a Turing machine, he directly calls out the tape as
-being analogous to "paper!"
+being analogous to "paper!" -->
 
 <!-- Emphasis mine
 > We have said that the computable numbers are those whose decimals
@@ -32,6 +97,15 @@ which will be called "*m*-configurations". The machine is supplied with a
 "tape" **(the analogue of paper)** running through it, and divided into
 sections (called "squares") each capable of bearing a "symbol".
 > ... -->
+
+This is the key takeaway: Humans are not Turing Machines. Humans paired with pencil and paper are.
+{: .notice--primary}
+
+Here's what Turing has to say about his original formalism [[Turing 1936]](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf). He is attempting to formalize the
+process by which human computers calculate numbers. 
+
+## Tape = Paper
+
 > Computing is normally done by writing certain symbols on paper. We
 may suppose this paper is divided into squares like a child's arithmetic book.
 In elementary arithmetic the two-dimensional character of the paper is
@@ -41,7 +115,7 @@ of computation. I assume then that the computation is carried out on
 one-dimensional paper, *i.e.* on a tape divided into squares. I shall also
 suppose that the number of symbols which may be printed is finite. If we
 were to allow an infinity of symbols, then there would be symbols differing
-to an arbitrarily small extent.... <!-- The effect of this restriction of the number
+to an arbitrarily small extent. <!-- The effect of this restriction of the number
 of symbols is not very serious. It is always possible to use sequences of
 symbols in the place of single symbols. Thus an Arabic numeral such as 17 or 999999999999999 is normally treated as a single symbol. Similarly
 in any European language words are treated as single symbols (Chinese,
@@ -50,22 +124,36 @@ differences from our point of view between the single and compound symbols
 is that the compound symbols, if they are too lengthy, cannot be observed
 at one glance. This is in accordance with experience. We cannot tell at
 a glance whether 9999999999999999 and 999999999999999 are the same. -->
->
-> The behaviour of the computer at any moment is determined by the
+
+So the tape in a Turing Machine formalizes the role of paper.
+
+## Read/Write Head = Eyes & Hand+Pencil
+
+> The behaviour of the computer [the person computing!] at any moment is determined by the
 symbols which he is observing, and his "state of mind" at that moment.
 We may suppose that there is a bound *B* to the number of symbols or
 squares which the computer can observe at one moment. If he wishes to
-observe more, he must use successive observations. We will also suppose
+observe more, he must use successive observations.
+
+So the read/write head formalizes the eyes and hand+pencil of the person computing numbers.
+
+## Finite State Machine = Human
+
+> We will also suppose
 that the number of states of mind which need be taken into account is finite.
 The reasons for this are of the same character as those which restrict the
 number of symbols. If we admitted an infinity of states of mind, some of
 them will be "arbitrarily close" and will be confused. Again, the restriction
-is not one which seriously affects computation, since the use of more complicated states of mind can be avoided by writing more symbols on the tape.
+is not one which seriously affects computation, since the use of more complicated states of mind can
+be avoided by writing more symbols on the tape.
 
-[(Turing 1936)](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf)
+So it is only the *finite state machine* that formalizes the human themselves.
 
 <!-- He continues to explore a model for human perception of the tape. Specifically that a human can only -->
 <!-- perceive some finite number, *L*, of symbols around the current symbol. -->
+
+Daniel C. Dennett summarizes the process Turing seems to have gone through when developing the
+Turing Machine:
 
 > He was thinking, self-consciously and introspectively, about just how he, a mathematician, went
 > about solving mathematical problems or performing computations, and he took the important step of
@@ -83,6 +171,11 @@ is not one which seriously affects computation, since the use of more complicate
 
 ("Consciousness Explained" Daniel C. Dennett 1990. pg 212)
 
+# How Did We Get Here?
+
+Why do we tend to equate humans and Turing Machines? Here's Hutchins's account of it. I don't fully
+agree, but it is a decent summary.
+
 > Now, here is what I think happened. It was discovered that it is possible to build machines that
 > can manipulate symbols. The computer is nothing more than an automated symbol manipulator. And
 > through symbol manipulation one can not only do things we think of as intelligent, like solving
@@ -96,8 +189,7 @@ is not one which seriously affects computation, since the use of more complicate
 > "electronic brain."
 >
 > But something got lost in this move. The origin myths of cognitive science place the seminal
-> insights of Alan Turing in his observations of his own actions. Dennett (1991) describes the
-> context of Turing's discoveries...
+> insights of Alan Turing in his observations of his own actions....
 > 
 > Originally, the model cognitive system was a person actually doing the manipulation of the symbols
 > with his or her hands and eyes. The mathematician or logician was visually and manually
@@ -109,28 +201,8 @@ is not one which seriously affects computation, since the use of more complicate
 > system that is made up of the human in interaction with these symbols. The properties of the human
 > in interaction with the symbols produce some kind of computation. But that does not mean that that
 > computation is happening inside the person's head.
->
-> John Searle's "Chinese room" thought experiment provides a good example of this effect. Imagine a
-> room inside of which sits the philosopher Searle. Chinese people come up to the room and push
-> strings of Chinese characters through a slot in the door. Searle slips back other strings of
-> characters, which the Chinese take to be clever responses to their questions. Now, Searle does not
-> understand Chinese. He doesn't know the meaning of any Chinese character. To him, the characters
-> of written Chinese are just a bunch of elaborate squiggles. However, Searle has with him in the
-> room baskets of Chinese characters, and he has a rulebook which says that if he gets certain
-> sequences of characters he should create certain other sequences of characters and slide them out
-> the slot.
->
-> Searle intends his thought experiment as a demonstration that syntax is not sufficient to produce
-> semantics. According to Searle, the room appears to behave as though it understand Chinese; yet
-> neither he nor anything in the room can be said to understand Chinese. There are many arguments
-> for and against Searle's claims, and I will not review them here. Instead, I want to interpret the
-> Chinese room in a completely different way: The Chinese room is a sociocultural cognitive system.
-> The really nice thing about it is that it shows us very clearly that the cognitive properties of
-> the person in the room are not the same as the cognitive properties of the room as a whole. There
-> is John Searle with a basket of Chinese characters and a rulebook. Together he and the characters
-> and rulebook in interaction seem to speak Chinese. But Searle himself speaks not a word of Chinese.
 
-("Cognition in the Wild" - Edwin Hutchins pp360-362)
+# LangChain, Bing Chat, and the Near Future of LLMs
 
 Humans plus pencil and paper are Turing Machines.
 
