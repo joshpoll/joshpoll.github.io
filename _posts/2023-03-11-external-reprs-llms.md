@@ -6,19 +6,23 @@ categories:
 ---
 
 One criticism of current LLMs is that they can't reliably do sophisticated math or logic problems
-out of the box that humans seem to be capable of. In essence, while humans are Turing-complete, but
+out of the box that humans seem to be capable of. In essence, while humans are Turing-complete,
 today's LLMs are not.
 
-But wait... Are humans even Turing-complete?
+But wait... are humans even Turing-complete?
 
-# Humans Are Not Turing Machines
+<!-- # Humans Are Not Turing Machines -->
 
 We like to think that humans are great at complex reasoning. But put a person in a blank room with
 nothing to write on, and they're getting nowhere fast.
 
-Human thought *depends* on the ability to write, diagram, or otherwise externalize thought so that
+Modern human cognition *depends* on our abilities to write, diagram, or otherwise externalize thought so that
 we can communicate ideas to others, or simply extend our own working memory.
 
+Disclosure: Some of the links below are affiliate links. This means that, at zero cost to you, I
+will earn an affiliate commission if you click through the link and finalize a purchase. I wrote
+this article without affiliate links in mind.
+{: .notice}
 
 
 <!-- 
@@ -70,7 +74,7 @@ A Turing Machine has the following pieces:
 
 But have you ever wondered where this model came from? I had never read the Turing's original paper
 until I came across some commentary about it in the conclusion to Edwin Hutchins's book about
-distribute cognition: "Cognition in the Wild."
+distribute cognition: ["Cognition in the Wild."](https://amzn.to/3yzyYWV)
 
 <!-- A Turing Machine has two pieces: a finite state machine and a linear tape. The finite state machine
 is a model of the human brain. The linear tape is a model of pencil and paper. -->
@@ -98,8 +102,8 @@ which will be called "*m*-configurations". The machine is supplied with a
 sections (called "squares") each capable of bearing a "symbol".
 > ... -->
 
-This is the key takeaway: Humans are not Turing Machines. Humans paired with pencil and paper are.
-{: .notice--primary}
+**This is the key takeaway:** Humans are not Turing Machines. Humans paired with pencil and paper are.
+{: .notice--info}
 
 Here's what Turing has to say about his original formalism [[Turing 1936]](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf). He is attempting to formalize the
 process by which human computers calculate numbers. 
@@ -153,7 +157,7 @@ So it is only the *finite state machine* that formalizes the human themselves.
 <!-- perceive some finite number, *L*, of symbols around the current symbol. -->
 
 Daniel C. Dennett summarizes the process Turing seems to have gone through when developing the
-Turing Machine:
+Turing Machine in ["Consciousness Explained:"](https://amzn.to/3Teffpl)
 
 > He was thinking, self-consciously and introspectively, about just how he, a mathematician, went
 > about solving mathematical problems or performing computations, and he took the important step of
@@ -168,8 +172,6 @@ Turing Machine:
 > to distill the mathematical essence: the bare-bones, minimal sequence
 > of operations that could accomplish the goals he accomplished in the
 > florid and meandering activities of his conscious mind.
-
-("Consciousness Explained" Daniel C. Dennett 1990. pg 212)
 
 # How Did We Get Here?
 
@@ -206,22 +208,40 @@ agree, but it is a decent summary.
 
 Humans plus pencil and paper are Turing Machines.
 
-So why do we expect LLMs, like GPT, to behave like Turing Machines yet also to approximate human
-intelligence? Because they run on computers? Fair, but we can only enhance them if we give models
-like GPT access to external representations.
+So why do we expect LLMs, like GPT, to both behave like Turing Machines yet also approximate human
+intelligence? Because they run on computers? Fair, but (at least right now) we can only grant GPT the
+power of Turing-completeness by giving it access to external representations like web search, a
+Python REPL, or a database -- the modern equivalents of Turing's pencil and paper.
+
+This is why I'm bullish in the near-term on solutions like Bing chat and
+[LangChain](https://langchain.readthedocs.io/en/latest/) that provide such external representations.
 
 No doubt, LLMs will get better, more accurate, capable of processing longer and longer
 conversations. Yet no matter how much better they get, the question of correctness will always
-linger. How can I trust this piece of code will run? Is this argument coherent? Are these facts
+linger. How can I trust this piece of code will run? Is this argument consistent? Are these facts
 correct?
 
 I believe we won't be able to answer such questions without external representations. Sure, the
-transformer architecture (or at least variations of it) are Turing complete. However, networks
-typically don't use their output as a Turing machine tape unless explicitly guided to do so. Moreover, this representation is not sufficient to,
-for example, search the internet or use a typechecker or REPL in reasonable space and time.
+transformer architecture (or at least variations of it) is Turing complete [[Pérez et al.
+2019]](https://arxiv.org/abs/1901.03429). However, today's networks don't typically use their
+outputs as Turing tapes unless explicitly guided to do so (think step-by-step). And today's networks
+cannot search the internet or emulate a Python REPL in reasonable time and space.
 
-Many of the more sophisticated uses of LLMs that are emerging are being used in precisely this way,
-with the aid of external representations.
+With formal, external representations we can better understand the "variegated
+jumble" of an LLM's "mind" and build much more powerful tools that we can interrogate and maybe even
+verify. As Turing showed us back in 1936, it's
+just like giving a human some pencil and paper and letting them write. ❏
+
+---
+
+Thanks to [Geoffrey Litt](https://twitter.com/geoffreylitt) for reviewing this post. If you enjoyed
+it, you might also like my friend Ajay's account of [our adventure trying to get Bing
+chat to recommend Dune.](https://thoughts.intimeand.space/quest/)
+<!-- Moreover, this representation is not sufficient to, -->
+<!-- for example, search the internet or use a typechecker or REPL in reasonable space and time. -->
+<!-- 
+Many of the more sophisticated uses of LLMs that are emerging are being used in precisely this way, -->
+<!-- with the aid of external representations. -->
 
 <!-- Likewise, though we can push LLMs to generate things that approach arbitrary computation, we
 shouldn't expect them to able to do that alone. Rather we ought to enhance them with external
