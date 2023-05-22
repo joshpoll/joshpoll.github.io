@@ -1,5 +1,4 @@
 ---
-published: false
 title: "Natural Semantic Metalanguage: The Other, Other ML"
 excerpt_separator: "<!--more-->"
 categories:
