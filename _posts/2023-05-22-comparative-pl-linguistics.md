@@ -76,6 +76,8 @@ because of this, this person feels something good
 X feels like this
 ```
 
+(Explications are from "Defining Emotion Concepts" (Wierzbicka 1992).)
+
 Compared to the Oxford Languages definitions, these ones have much more structure. They can be
 diffed. These definitions are also written purely in terms of semantic primes, so (at least in
 theory) these definitions are culturally agnostic. Because of their use of parallel structure, it is
