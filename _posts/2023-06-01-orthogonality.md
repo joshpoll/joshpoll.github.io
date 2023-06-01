@@ -106,6 +106,7 @@ visualization "words" in [seaborn](https://seaborn.pydata.org/index.html), a Pyt
 library:
 
 - `countplot`: "Show the counts of observations in each categorical bin using bars. A count plot can be thought of as a histogram across a categorical, instead of quantitative, variable."
+
 ![A seaborn countplot.](https://seaborn.pydata.org/_images/countplot_2_0.png)
 
 - `histplot`: "Plot univariate or bivariate histograms to show distributions of datasets. A histogram is a classic visualization tool that represents the distribution of one or more variables by counting the number of observations that fall within discrete bins."
