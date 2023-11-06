@@ -3,7 +3,7 @@ permalink: /about/
 title: "About Me"
 ---
 
-Hi! I'm Josh Pollock, a third year PhD student at MIT. I work on domain-specific languages for
+Hi! I'm Josh Pollock, a fourth year PhD student at MIT. I work on domain-specific languages for
 visualization in the VIS group with Arvind Satyanarayan.
 
 My current interest is in helping people create and reason about all kinds of visualizations, not
@@ -14,15 +14,15 @@ representations](https://dare.uva.nl/search?identifier=c136c6f0-b987-4264-aeef-d
 same way we read charts:
 
 - using [elementary perceptual
-tasks](https://www.jstor.org/stable/2288400#metadata_info_tab_contents) identified by Cleveland &
-McGill
+  tasks](https://www.jstor.org/stable/2288400#metadata_info_tab_contents) identified by Cleveland &
+  McGill
 
 ![elementary perceptual
 tasks](https://www.researchgate.net/profile/Chia-Shen-2/publication/221513994/figure/fig2/AS:305590816526337@1449869936222/Cleveland-and-McGills-elementary-perceptual-tasks-All-visual-representations-of.png){:width="45%"
 style="display:block; margin-left:auto; margin-right:auto"}
 
 - using [perceptual grouping principles](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3482144/)
-identified by Gestalt psychologists
+  identified by Gestalt psychologists
 
 ![perceptual grouping principles](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3482144/bin/nihms390005f1.jpg){:width="45%"
 style="display:block; margin-left:auto; margin-right:auto"}

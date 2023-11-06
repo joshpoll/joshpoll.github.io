@@ -58,7 +58,7 @@ plugins:
 author:
   name: "Josh Pollock"
   avatar: "/assets/images/jmp_square_2022.jpg"
-  bio: "I’m a third year PhD student at MIT. I work on domain-specific languages for visualization."
+  bio: "I’m a fourth year PhD student at MIT. I work on domain-specific languages for visualization."
   links:
     - label: "@joshmpollock"
       icon: "fab fa-fw fa-twitter-square"
