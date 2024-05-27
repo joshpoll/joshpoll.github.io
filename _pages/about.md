@@ -40,5 +40,5 @@ was also where I was introduced to
 [PL+X](http://www.pl-enthusiast.net/2015/05/27/what-is-pl-research-and-how-is-it-useful/), the idea
 of applying PL techniques to areas outside of core PL.
 
-Outside of work I enjoy dancing (currently salsa, in the past house and hip hop), playing bass
-guitar, and gardening.
+Outside of work I enjoy dancing (currently contact improv, in the past salsa, house, and hip hop),
+playing guitar, and taekwondo.
