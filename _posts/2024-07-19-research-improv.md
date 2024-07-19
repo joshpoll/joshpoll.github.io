@@ -32,7 +32,9 @@ If there's one thing you take away from this post, it's this:
 
 Creative play is the source of the most impactful research, and it's fun too. It seems too good to
 be true, but it is true. You can have fun, avoid burnout, have a good life, if you focus your
-efforts on optimizing for creative play. And that is what I've lost since I left UW.
+efforts on optimizing for creative play.
+
+<!-- And that is what I've lost since I left UW. -->
 
 <!-- ### Find ways to complement your collaborators
 
@@ -82,7 +84,9 @@ office. It's like George Harrison has gone home. What am I going to do.
 
 I'm not sure why this is happening to my work environment. Maybe it's COVID anxiety. Maybe it's
 hanging onto the myth of the solitary intellectual. Maybe it's a consequence of the building's
-anti-social design that makes people hate their co-workers. I'm not sure
+anti-social design. I'm not sure
+
+<!-- that makes people hate their co-workers. -->
 
 <!-- - communication
 - Play
