@@ -6,6 +6,10 @@ categories:
   - Blog
 ---
 
+:::info
+This post is from November 26, 2021. I have lightly edited it and published it now, because the ideas are still on my mind.
+:::
+
 ![Middle school me, trumpet in hand, wearing a 10-types-of-people shirt](../../assets/images/jmp-trumpet.jpg)
 
 I played jazz trumpet from elementary school through mid-way through college. I was no [Joe
@@ -32,10 +36,10 @@ Creative play is the source of the most impactful research, and it's fun too. It
 be true, but it is true. You can have fun, avoid burnout, have a good life, if you focus your
 efforts on optimizing for creative play. And that is what I've lost since I left UW.
 
-### Find ways to complement your collaborators
+<!-- ### Find ways to complement your collaborators
 
 
-### Riff off others
+### Riff off others -->
 
 ## Surround yourself with your influences
 
@@ -55,10 +59,10 @@ papers or talks I love are written.
 
 ### Play with the masters
 
-Of course, what can be even better than transcribing is actually *playing* alongside the masters.
+Of course, what can be even better than transcribing is actually _playing_ alongside the masters.
 
-In jazz (and in dance) I've had amazing opportunities to play *with* great musicians and dancers.
-Similarly, in research I have the opportunity to think through ideas *with* professors.
+In jazz (and in dance) I've had amazing opportunities to play _with_ great musicians and dancers.
+Similarly, in research I have the opportunity to think through ideas _with_ professors.
 
 ### Master a few techniques, and use them over and over
 
@@ -72,7 +76,6 @@ for designing systems (many of them from talking with [Jared](https://twitter.co
 
 Also known as "style."
 
-
 ## Research in a COVID World
 
 All of this is to say that I am so sad that I go into the office every day and it's dead. While
@@ -83,7 +86,7 @@ I'm not sure why this is happening to my work environment. Maybe it's COVID anxi
 hanging onto the myth of the solitary intellectual. Maybe it's a consequence of the building's
 anti-social design that makes people hate their co-workers. I'm not sure
 
-- communication
+<!-- - communication
 - Play
 - Surround yourself by influences
 - Play with the masters
@@ -93,4 +96,4 @@ anti-social design that makes people hate their co-workers. I'm not sure
 
 Having fun with friends leads to results
 
-My own struggles are like those that broke up the Beatles. Tension between working with a group and expressing your own ideas
+My own struggles are like those that broke up the Beatles. Tension between working with a group and expressing your own ideas -->
