@@ -5,9 +5,8 @@ categories:
   - Blog
 ---
 
-:::info
 This post is from November 26, 2021. I have lightly edited it and published it now, because the ideas are still on my mind.
-:::
+{: .notice--info}
 
 ![Middle school me, trumpet in hand, wearing a 10-types-of-people shirt](../../assets/images/jmp-trumpet.jpg)
 
