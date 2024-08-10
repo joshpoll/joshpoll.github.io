@@ -5,8 +5,6 @@ categories:
   - Blog
 ---
 
-# Mindfulness and Abstraction Design
-
 ## Formalism and Awareness
 
 Skill building helps us focus our awareness. Formalism is an incredible scalpel for sharpening
