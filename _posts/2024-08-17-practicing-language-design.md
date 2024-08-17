@@ -8,9 +8,9 @@ categories:
 I get asked a lot in the lab to help people out with API and language design. I wish I had resources
 I could point people at to learn better, but I don't. As with most (all?) skills, I know that it
 should be some combination of deliberate practice and [developing
-awareness](/_posts/2024-08-10-mindfulness-abstraction-design.md). I'm slowly building up design
+awareness](/blog/2024-08-10-mindfulness-abstraction-design.md). I'm slowly building up design
 heuristics/how to attune to features of a domain including
-[orthogonality](/_posts/2023-06-01-orthogonality.md) and consistency. But I don't have great advice
+[orthogonality](/blog/2023-06-01-orthogonality.md) and consistency. But I don't have great advice
 for practicing language design over and over again.
 
 Instead I have gotten stuck designing just a few languages. I wonder if I could improve faster by
