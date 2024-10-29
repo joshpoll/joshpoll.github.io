@@ -61,7 +61,7 @@ author:
   bio: "I'm a fifth year PhD student at MIT. I work on domain-specific languages for graphic representations."
   links:
     - label: "@joshmpollock"
-      icon: "fab fa-fw fa-x-square"
+      icon: "fab fa-fw fa-square-x-twitter"
       url: "https://x.com/joshmpollock"
     - label: "jopo@mit.edu"
       icon: "far fa-fw fa-envelope"
@@ -76,7 +76,7 @@ author:
 footer:
   links:
     - label: "X"
-      icon: "fab fa-fw fa-x-square"
+      icon: "fab fa-fw fa-x-twitter"
       url: "https://x.com/joshmpollock"
     - label: "jopo@mit.edu"
       icon: "far fa-fw fa-envelope"
