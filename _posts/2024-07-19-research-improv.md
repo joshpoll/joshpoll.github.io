@@ -1,6 +1,8 @@
 ---
 title: "Why Doing Research Is Like Playing Jazz"
 excerpt_separator: "<!--more-->"
+tags:
+  - Uppercase
 categories:
   - Blog
 ---

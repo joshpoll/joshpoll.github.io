@@ -1,6 +1,8 @@
 ---
 title: "Formality Considered Harmful"
 excerpt_separator: "<!--more-->"
+tags:
+  - Uppercase
 categories:
   - Blog
 ---
@@ -56,7 +58,7 @@ they may not have even settled on their types yet.
 ### Enforcing Premature Structure
 
 Knowledge work is messy. Often someone will start with a tacit and informal idea, maybe a vague
-solution to a problem or fuzzy idea of a system architecture, and they will *gradually* make this
+solution to a problem or fuzzy idea of a system architecture, and they will _gradually_ make this
 idea more explicit and
 formal.
 
@@ -75,7 +77,7 @@ summer, in part to further explore these ideas!)
 ### Different People, Different Tasks: Situational Structure
 
 Some formal systems assume there is a single, canonical formalism, but sometimes structure is
-*task-dependent*. For example, there are a billion and one todo-list apps, in part because each one
+_task-dependent_. For example, there are a billion and one todo-list apps, in part because each one
 chooses to support a different set of tasks by imposing its own unique structure.
 
 ## Mitigating Problems of Formal Systems
@@ -166,8 +168,8 @@ among us.
 
 "Formality Considered Harmful" proposes an explanation for the popularity of these tools. For those of us, like me, who love formalisms,
 it can sometimes be hard to see how they can hinder development. But as Meyerovich and Rabkin found
-in "Empirical Analysis of Programming Language Adoption," developers value *expressivity* over
-*correctness*. This is the tradeoff that many popular tools take, even if it leads to some
+in "Empirical Analysis of Programming Language Adoption," developers value _expressivity_ over
+_correctness_. This is the tradeoff that many popular tools take, even if it leads to some
 grumblings as we use them.
 
 <!-- When we design formal systems it's not sufficient to look at the finished piece of work. When we
@@ -176,7 +178,7 @@ correctness. When we look at a finished diagram, we may want to describe its str
 While these are useful endeavors, such structures aren't as helpful in the places we spend the most
 of our time: with incomplete, inconsistent, nascent formalisms. -->
 
-Furthermore, to understand how we build formal systems that can *really* support users, it's not enough to look at
+Furthermore, to understand how we build formal systems that can _really_ support users, it's not enough to look at
 finished artifacts. These artifacts are dead. Though we can infer some information from a brush stroke, we
 gain a whole new perspective by watching a painter in action. The decisions they make, the ideas they
 try and revert, the other media they use alongside their paintbrush to hash out ideas.

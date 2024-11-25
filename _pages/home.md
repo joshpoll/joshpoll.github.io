@@ -1,26 +1,135 @@
 ---
-permalink: /home/
-title: "home"
+layout: single
+permalink: /
+title: "Hello!"
+classes: wide
+
+# header:
+#   overlay_color: "#0C4A6E"
+#   overlay_image: /assets/images/mm-home-page-feature.jpg
+#   actions:
+#     - label: "<i class='fas fa-download'></i> Install now"
+#       url: "/docs/quick-start-guide/"
+# excerpt: "I'm a fifth year PhD student at MIT. I work on domain-specific languages for graphic representations."
+feature_row:
+  # - image_path: /assets/images/mm-customizable-feature.png
+  #   alt: "customizable"
+  - title: "postrational"
+    excerpt: "Integrates _formal_ (explicit, technical, abstract) and _intuitive_ (implicit, experiential, concrete) ways of being and doing.  Integrated approaches use direct observation to develop just the right amount of structure, which in turn enhances direct observation."
+    # Integrated approaches offer just the right amount of structure to enhance direct observation, which further our exploration of structure.
+    # url: "/docs/configuration/"
+    # btn_class: "btn--primary"
+    # btn_label: "Learn more"
+  # - image_path: /assets/images/mm-responsive-feature.png
+  #   alt: "fully responsive"
+  - title: "interbeing"
+    excerpt: "Prefers clusters over categories. Identifies larger spaces or fabrics where clusters live. Rather than seeking to separate phenomena, activities that embody interbeing seek to understand how phenomena are connected."
+    # url: "/docs/layouts/"
+    # btn_class: "btn--primary"
+    # btn_label: "Learn more"
+  # - image_path: /assets/images/mm-free-feature.png
+  #   alt: "100% free"
+  - title: "aliveness"
+    excerpt: 'Promotes authentic self-expression, connection, and joy. Contributes to being fully present and engaged in the world. Dissolves "should"s, fear, and other emotional blockers and constrictions.'
+    # url: "/docs/license/"
+    # btn_class: "btn--primary"
+    # btn_label: "Learn more"
 ---
 
-Hide it in a box. Tape it shut. All the duct tape in the world will do. Don't feel. Feeling is an avalanche. Too much. Best not to feel. When I'm in my little house not feeling, the feeling is a bright burning light outside. Too bright for me. I stay inside. All good.
+I like doing research. My research so far has been in programming languages (PL), human-computer
+interaction (HCI), and data visualization (VIS). I especially like building systems that formalize,
+clarify, and operationalize research ideas.
 
-But it is dark. I can't see. Help me. Help me! It is too dark inside but the light out there will burn me up! OOps someone opened the door. Oh no. Ouch! Best to keep that door closed. No use opening that door.
+The activities that excite me tend to have these three qualities:
 
-Oh no the room is rotating! I'm going to <u>fall</u> through that door if I don't hang on. I'm going to tumble and tumble through that door into the abyss below me.
+{% include feature_row %}
 
-Tumbling and tumbling down. Bliss for a second before I hit the ground. I am falling upwards and downwards at the same time. It's best not to rhyme.
+Some of my past and current work includes
 
-I can't let that feeling in. It's too bright. But what if I dissolve the house and let the feeling spread all around and through me? A warm blanket not a hot laser. The world is ready to embrace me anyway.
+<div class="notice--primary">
+<b>Key</b>
+<br />
+<code>*</code> = active
+<br />
+<code>( )</code> = worked on but not first author
+</div>
 
-They are there I just couldn't see it. I held myself close with thorns and spikes.
+## Visualization Languages
 
-Ouch! I said. My embrace is painful. Love is painful.
+- \*GoFish: An alive visualization library extending Bluefish
+- [\*Bluefish:](https://arxiv.org/pdf/2307.00146) A web-based diagramming library ([bluefishjs.org](https://bluefishjs.org/))
+- [Animated Vega-Lite:](https://vis.csail.mit.edu/pubs/animated-vega-lite/) Unifying animation with
+  an interactive grammar of graphics
 
-Best not let that in here, I said.
+### postrational
 
-Dissolve the house.
+Visualization languages aim to construct mappings between data -- formal representations -- and visual
+representations, which are perceived intuitively. To what extent can such mappings be
+systematized?
 
-Where will I live? I asked.
+### interbeing
 
-You're already home.
+How can we view charts, diagrams, notations, and other visual representations as clusters in the
+larger space of graphic representations? What shared infrastructure and theory can we build?
+
+How far can we take the _congruence principle_? What happens if we adopt the PL stance that
+everything is data (including functions, code, etc.)?
+
+### aliveness
+
+How do we make visualization languages that are truly malleable and expressive? What if a
+visualization library optimized for whimsy and character instead of (just) precision, correctness,
+and efficiency?
+
+## Accessibility
+
+- \*Mantis: A screen magnification tool
+- \*Benthic: A screen reader tool for charts and diagrams
+- [(\*Olli):](https://vis.csail.mit.edu/pubs/olli/) An extensible visualization library for screen reader accessibility
+
+### postrational
+
+To what extent can a graphic representation be modeled as a perceptual data structure a la [Larkin & Simon 1987](https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1551-6708.1987.tb00863.x)?
+
+### interbeing
+
+What can we learn from co-designing visual and accessible representations? Are there meaningful,
+visual-agnostic ways to think about visualization? What can we learn about the nature of spaces and
+encodings by examining other sensory modalities? What do Gestalt relations look like in other
+modalities?
+
+### aliveness
+
+How do we allow more people to enjoy the benefits of visualization? How do we allow more people to
+read and write them?
+
+What affordances do modalities besides vision have for external representations? Touch? Sound? How
+is information or intent conveyed through these channels?
+
+## Semi-Formal Programming
+
+- [\*Semi-Formal Notebooks:](https://vis.csail.mit.edu/pubs/semi-formal-design-space/) A notebook for semi-formal programming
+- Twofish: A direct manipulation editor for Bluefish
+
+### postrational
+
+Until recently, programming languages and environments have only been able to reason about formal
+artifacts/representations: types, syntax, semantics, etc. With the invention of foundation models, we can
+more easily build general-purpose systems that can leverage intuitive methods. How do we build
+systems around those ideas? How do we leverage existing best-practice intuitive methods? When are
+they more effective than formal ones? Where do they break down?
+
+### interbeing
+
+How does this expand our notion of what a program is? What if a program wasn't just text but
+also contained visual artifacts? What if programs were ambiguous, inconsistent, or otherwise
+incomplete, but could still be executed? There's been lots of exciting work in this area, before
+foundation models, but now we can actually execute/reason about the "intuitive" parts instead of
+just executing/reasoning around them.
+
+### aliveness
+
+How might this allow us to extend the benefits of programming to more people? Code assistants like
+GitHub Copilot and Cursor seem to be a qualitative step change in the way we write code. Now it's
+possible to write code in a much looser, freer way that's closer to a continuous flow state. Can
+we extend this to more people and domains?

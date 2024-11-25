@@ -1,6 +1,8 @@
 ---
 title: "Humans Are Not Turing Machines"
 excerpt_separator: "<!--more-->"
+tags:
+  - Uppercase
 categories:
   - Blog
 ---
@@ -16,7 +18,7 @@ But wait... are humans even Turing-complete?
 We like to think that humans are great at complex reasoning. But put a person in a blank room with
 nothing to write on, and they're getting nowhere fast.
 
-Modern human cognition *depends* on our abilities to write, diagram, or otherwise externalize thought so that
+Modern human cognition _depends_ on our abilities to write, diagram, or otherwise externalize thought so that
 we can communicate ideas to others, or simply extend our own working memory.
 
 Disclosure: Some of the links below are affiliate links. This means that, at zero cost to you, I
@@ -24,8 +26,7 @@ will earn an affiliate commission if you click through the link and finalize a p
 this article without affiliate links in mind.
 {: .notice}
 
-
-<!-- 
+<!--
 
 points I want to make in this post:
 - humans are not turing machines b/c our short-term/working memory is effectively finite
@@ -52,7 +53,6 @@ points I want to make in this post:
 https://twitter.com/geoffreylitt/status/1599200960458260482
 - Geoffrey got ChatGPT to use debugging/print statements and it seemed to improve perf! -->
 
-
 <!-- When we compare LLMs to humans, we often place a lot of emphasis on how good LLMs are at pure
 reasoning. We tend to think that humans are great at sophisticated logic and reasoning. But put a
 human in an empty box and ask them to come up with a proof or write a novel, and they will have a
@@ -68,6 +68,7 @@ very hard time. -->
 ## Turing Machines
 
 A Turing Machine has the following pieces:
+
 - a tape
 - a read/write head for the tape
 - a finite state machine that controls the read/write head
@@ -106,52 +107,52 @@ sections (called "squares") each capable of bearing a "symbol".
 {: .notice--info}
 
 Here's what Turing has to say about his original formalism [[Turing 1936]](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf). He is attempting to formalize the
-process by which human computers calculate numbers. 
+process by which human computers calculate numbers.
 
 ## Tape = Paper
 
 > Computing is normally done by writing certain symbols on paper. We
-may suppose this paper is divided into squares like a child's arithmetic book.
-In elementary arithmetic the two-dimensional character of the paper is
-sometimes used. But such a use is always avoidable, and I think that it
-will be agreed that the two-dimensional character of paper is no essential
-of computation. I assume then that the computation is carried out on
-one-dimensional paper, *i.e.* on a tape divided into squares. I shall also
-suppose that the number of symbols which may be printed is finite. If we
-were to allow an infinity of symbols, then there would be symbols differing
-to an arbitrarily small extent. <!-- The effect of this restriction of the number
-of symbols is not very serious. It is always possible to use sequences of
-symbols in the place of single symbols. Thus an Arabic numeral such as 17 or 999999999999999 is normally treated as a single symbol. Similarly
-in any European language words are treated as single symbols (Chinese,
-however, attempts to have an enumerable infinity of symbols). The
-differences from our point of view between the single and compound symbols
-is that the compound symbols, if they are too lengthy, cannot be observed
-at one glance. This is in accordance with experience. We cannot tell at
-a glance whether 9999999999999999 and 999999999999999 are the same. -->
+> may suppose this paper is divided into squares like a child's arithmetic book.
+> In elementary arithmetic the two-dimensional character of the paper is
+> sometimes used. But such a use is always avoidable, and I think that it
+> will be agreed that the two-dimensional character of paper is no essential
+> of computation. I assume then that the computation is carried out on
+> one-dimensional paper, _i.e._ on a tape divided into squares. I shall also
+> suppose that the number of symbols which may be printed is finite. If we
+> were to allow an infinity of symbols, then there would be symbols differing
+> to an arbitrarily small extent. <!-- The effect of this restriction of the number
+> of symbols is not very serious. It is always possible to use sequences of
+> symbols in the place of single symbols. Thus an Arabic numeral such as 17 or 999999999999999 is normally treated as a single symbol. Similarly
+> in any European language words are treated as single symbols (Chinese,
+> however, attempts to have an enumerable infinity of symbols). The
+> differences from our point of view between the single and compound symbols
+> is that the compound symbols, if they are too lengthy, cannot be observed
+> at one glance. This is in accordance with experience. We cannot tell at
+> a glance whether 9999999999999999 and 999999999999999 are the same. -->
 
 So the tape in a Turing Machine formalizes the role of paper.
 
 ## Read/Write Head = Eyes & Hand+Pencil
 
 > The behaviour of the computer [the person computing!] at any moment is determined by the
-symbols which he is observing, and his "state of mind" at that moment.
-We may suppose that there is a bound *B* to the number of symbols or
-squares which the computer can observe at one moment. If he wishes to
-observe more, he must use successive observations.
+> symbols which he is observing, and his "state of mind" at that moment.
+> We may suppose that there is a bound _B_ to the number of symbols or
+> squares which the computer can observe at one moment. If he wishes to
+> observe more, he must use successive observations.
 
 So the read/write head formalizes the eyes and hand+pencil of the person computing numbers.
 
 ## Finite State Machine = Human
 
 > We will also suppose
-that the number of states of mind which need be taken into account is finite.
-The reasons for this are of the same character as those which restrict the
-number of symbols. If we admitted an infinity of states of mind, some of
-them will be "arbitrarily close" and will be confused. Again, the restriction
-is not one which seriously affects computation, since the use of more complicated states of mind can
-be avoided by writing more symbols on the tape.
+> that the number of states of mind which need be taken into account is finite.
+> The reasons for this are of the same character as those which restrict the
+> number of symbols. If we admitted an infinity of states of mind, some of
+> them will be "arbitrarily close" and will be confused. Again, the restriction
+> is not one which seriously affects computation, since the use of more complicated states of mind can
+> be avoided by writing more symbols on the tape.
 
-So it is only the *finite state machine* that formalizes the human themselves.
+So it is only the _finite state machine_ that formalizes the human themselves.
 
 <!-- He continues to explore a model for human perception of the tape. Specifically that a human can only -->
 <!-- perceive some finite number, *L*, of symbols around the current symbol. -->
@@ -192,12 +193,12 @@ agree, but it is a decent summary.
 >
 > But something got lost in this move. The origin myths of cognitive science place the seminal
 > insights of Alan Turing in his observations of his own actions....
-> 
+>
 > Originally, the model cognitive system was a person actually doing the manipulation of the symbols
 > with his or her hands and eyes. The mathematician or logician was visually and manually
 > interacting with a material world. A person is interacting with the symbols and that interaction
 > does something computational. This is a case of manual manipulation of symbols.
-> 
+>
 > Notice that when the symbols are in the environment of the human, and the human is manipulating
 > the symbols, the cognitive properties of the human are not the same as the properties of the
 > system that is made up of the human in interaction with these symbols. The properties of the human
@@ -237,9 +238,10 @@ just like giving a human some pencil and paper and letting them write. ❏
 Thanks to [Geoffrey Litt](https://twitter.com/geoffreylitt) for reviewing this post. If you enjoyed
 it, you might also like my friend Ajay's account of [our adventure trying to get Bing
 chat to recommend Dune.](https://thoughts.intimeand.space/quest/)
+
 <!-- Moreover, this representation is not sufficient to, -->
 <!-- for example, search the internet or use a typechecker or REPL in reasonable space and time. -->
-<!-- 
+<!--
 Many of the more sophisticated uses of LLMs that are emerging are being used in precisely this way, -->
 <!-- with the aid of external representations. -->
 

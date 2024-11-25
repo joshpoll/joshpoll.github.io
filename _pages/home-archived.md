@@ -1,9 +1,6 @@
 ---
+permalink: /home/
 title: "home"
-tags:
-  - lowercase
-categories:
-  - Blog
 ---
 
 Hide it in a box. Tape it shut. All the duct tape in the world will do. Don't feel. Feeling is an avalanche. Too much. Best not to feel. When I'm in my little house not feeling, the feeling is a bright burning light outside. Too bright for me. I stay inside. All good.

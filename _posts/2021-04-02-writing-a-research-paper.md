@@ -1,6 +1,8 @@
 ---
 title: "Writing a Research Paper: A Meta-Guide"
 excerpt_separator: "<!--more-->"
+tags:
+  - Uppercase
 categories:
   - Blog
 ---
@@ -35,8 +37,8 @@ What is research about? This lecture from UChicago helped establish my point of 
 Research is about community. See this lecture: [The Craft of Writing Effectively](https://www.youtube.com/watch?v=vtIzMaLkCaM)
 {: .notice--primary}
 
-Fundamentally, research is about a *community* of people. From this framing, a research paper is an
-argument aimed at *changing the minds* of that community. The rest of this post will be framed with
+Fundamentally, research is about a _community_ of people. From this framing, a research paper is an
+argument aimed at _changing the minds_ of that community. The rest of this post will be framed with
 this perspective in mind. It justifies many other points to come.
 
 # Know Your Audience
@@ -44,7 +46,7 @@ this perspective in mind. It justifies many other points to come.
 Since a paper is designed to convince people of something, it's important to understand who those
 people are.
 
-## *Why* are they reading your paper?
+## _Why_ are they reading your paper?
 
 - reading group
 - literature review
@@ -52,11 +54,10 @@ people are.
 - ideas for their own work
 - just interesting
 
-## *How* are they reading your paper?
+## _How_ are they reading your paper?
 
 - [How to Read a Paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)
 - [How to (seriously) read a scientific paper](https://www.sciencemag.org/careers/2016/03/how-seriously-read-scientific-paper)
-
 
 - What does your audience already know or believe?
 - What does your audience not already know or believe?
@@ -67,20 +68,21 @@ people are.
 - who are you writing for, specifically, and why?
 - what things do they know or believe?
 - what things do they not know or believe?
-- what things might *convince* them?
+- what things might _convince_ them?
 - speaking their language
 
-**Write papers that are *easy* to read!**
+**Write papers that are _easy_ to read!**
 {: .notice--primary}
 
 # Story
 
 - example-driven
 - beginning, middle, end
-- *one* key message
+- _one_ key message
 - conflict-resolution
 
 narrative arc
+
 - exposition, rising action, climax, falling action, resolution
 - rising action = problem
 - climax = key idea
@@ -91,10 +93,11 @@ narrative arc
 Let's look at how the narrative arc typically plays out in academic papers.
 
 Two related story archetypes:
+
 - Question-Answer: Construct a research question and find an answer.
 - Problem-Solution: Identify a problem and construct a solution.
 
-Seems to me that problem-solution is possible as "research" in CS, because systems *embody ideas.*
+Seems to me that problem-solution is possible as "research" in CS, because systems _embody ideas._
 Systems are formal representations of ideas.
 TODO: honestly this probably does exist in other areas, e.g. development of biomedical techniques.
 
@@ -112,13 +115,14 @@ everything else revolves around this central point
 it's non-fiction! you don't have to stick to prose style. **use structure to your advantage!**
 
 Some notes on how to write research papers in CS (skewed towards PL):
-- [SPJ's "How to Write a Great Research Paper"](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/
-)
+
+- [SPJ's "How to Write a Great Research Paper"](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/)
 - [Kayvon Fatahalian's "What Makes a (Graphics) Systems Paper
   Beautiful"](http://graphics.stanford.edu/~kayvonf/notes/systemspaper/)
 - [Derek Dreyer's "How to Write Papers So People Can Read Them"](https://www.youtube.com/watch?v=XpgJ31GKPWI)
 
 Some great writers/presenters (typically correlated) who you should probably check out (mostly in PL) (alphabetical by last name):
+
 - Emery Berger
 - Derek Dreyer
 - Jana Dunfield
@@ -129,13 +133,13 @@ Some great writers/presenters (typically correlated) who you should probably che
 - Shriram Krishnamurthi
 - Conor McBride
 
-# Paper Summaries *In Situ*
+# Paper Summaries _In Situ_
 
 - Title
 - Abstract
 - Intro
 
-These are (i) affordances to readers to help them understand your paper and (ii) *in situ* sales
+These are (i) affordances to readers to help them understand your paper and (ii) _in situ_ sales
 pitches for your paper. Use them effectively!
 
 ## Title
@@ -163,7 +167,7 @@ you at some links to get started.
 - [Eunice's slides?](TODO!!!!)
 
 The important point for this post is that methods vary not only by the topic and idea you are
-writing about, *but also by community.* Different communities value different types of evidence. For
+writing about, _but also by community._ Different communities value different types of evidence. For
 example, POPL is generally interested in formal proofs (where applicable), whereas CHI is interested
 in user studies (again, where applicable). There are notable exceptions to these, and they should
 not be treated as hard and fast rules. Just remember: evidence must convince a community. That means
@@ -177,6 +181,7 @@ If a paper falls in a forest...
 A research paper does little to impact a community if no one in that community reads it! Thus we
 must "sell" our papers. We've already seen that portions of the paper can help sell it. But there
 are auxiliary artifacts as well. This can be done by
+
 - tweeting about it
 - giving a talk
 - writing an article
@@ -185,6 +190,7 @@ are auxiliary artifacts as well. This can be done by
 Some resources on how to give talks (note: significant overlap with paper writing techniques and
 vice versa, so use
 those, too!)
+
 - ["How to Give a Great Research
   Talk"](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/) - SPJ
 - ["How to Design Talks"](https://www.youtube.com/watch?v=aFT79TmffPk) - Ranjit Jhala
@@ -196,17 +202,17 @@ those, too!)
 
 - two styles of writing: full text beginning-to-end vs. outline first
 
-**Draft *then* edit!** Write first, edit second! It's important to separate them into separate phases. This is a technique that can be difficult to internalize but is tremendously
+**Draft _then_ edit!** Write first, edit second! It's important to separate them into separate phases. This is a technique that can be difficult to internalize but is tremendously
 useful not only for writing, but also for most (if not all) creative activities.
 {: .notice--primary}
 
-For general tips on writing nonfiction, consider *On Writing Well* by William Zinsser. This is my
+For general tips on writing nonfiction, consider _On Writing Well_ by William Zinsser. This is my
 dad's go-to book for writing tips.
 
-For a more systematic approach to writing clearly, try *Style: Lessons in Clarity and Grace* by
+For a more systematic approach to writing clearly, try _Style: Lessons in Clarity and Grace_ by
 Joseph M. Williams and Joseph Bizup. This is my undergrad advisor's go-to book for writing tips.
 
-For your really low-level style points, try *The Chicago Manual of Style*. My parents, who are
+For your really low-level style points, try _The Chicago Manual of Style_. My parents, who are
 editors, swear by this book.
 
 ## LaTeX

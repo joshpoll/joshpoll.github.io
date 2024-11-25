@@ -1,6 +1,8 @@
 ---
 title: "How Do You Get Good at Programming Language Design?"
 excerpt_separator: "<!--more-->"
+tags:
+  - Uppercase
 categories:
   - Blog
 ---

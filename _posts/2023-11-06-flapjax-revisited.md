@@ -1,6 +1,8 @@
 ---
 title: "Flapjax Revisited"
 excerpt_separator: "<!--more-->"
+tags:
+  - Uppercase
 categories:
   - Blog
 ---

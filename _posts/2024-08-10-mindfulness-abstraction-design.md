@@ -1,6 +1,8 @@
 ---
 title: "Mindfulness and Abstraction Design"
 excerpt_separator: "<!--more-->"
+tags:
+  - Uppercase
 categories:
   - Blog
 ---

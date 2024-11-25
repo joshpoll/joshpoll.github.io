@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About Me"
+title: ".about"
 ---
 
 Hi! I'm Josh Pollock, a fifth year PhD student at MIT. I work on domain-specific languages for
@@ -40,5 +40,9 @@ was also where I was introduced to
 [PL+X](http://www.pl-enthusiast.net/2015/05/27/what-is-pl-research-and-how-is-it-useful/), the idea
 of applying PL techniques to areas outside of core PL.
 
-Outside of work I enjoy dancing (currently contact improv, in the past salsa, house, and hip hop),
-playing guitar, and taekwondo.
+<!-- Outside of work I enjoy dancing (currently contact improv, in the past salsa, house, and hip hop),
+playing guitar, and taekwondo. -->
+
+I like to sing, dance, and write music. I also like to meditate sometimes. In general I enjoy
+mindful activities. These days it looks like contact
+improv, ecstatic dance, singing circles, and listening to/singing Beatles and post-Beatles music.

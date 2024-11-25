@@ -1,6 +1,8 @@
 ---
 title: "Natural Semantic Metalanguage: The Other, Other ML"
 excerpt_separator: "<!--more-->"
+tags:
+  - Uppercase
 categories:
   - Blog
 ---
@@ -28,6 +30,7 @@ NSM attempts to use a collection of 65 primes to define culturally specific word
 NSM is used to distinguish between "happy," "contented," and "pleased."
 
 First, here are Oxford Languages definitions:
+
 - **Happy:** "feeling or showing pleasure or contentment"
 - **Contented:** "happy and at ease"
 - **Pleased**: "feeling or showing pleasure and satisfaction, especially at an event or a situation"
@@ -39,6 +42,7 @@ those differences are, especially if you don't speak the language already. Let's
 the NSM "explications" of these words:
 
 **Happy**
+
 ```
 X feels something
 
@@ -52,6 +56,7 @@ X feels like this
 ```
 
 **Contented**
+
 ```
 X feels something
 
@@ -65,6 +70,7 @@ X feels like this
 ```
 
 **Pleased**
+
 ```
 X feels something
 
@@ -82,18 +88,19 @@ Compared to the Oxford Languages definitions, these ones have much more structur
 diffed. These definitions are also written purely in terms of semantic primes, so (at least in
 theory) these definitions are culturally agnostic. Because of their use of parallel structure, it is
 easier to distinguish subtleties between these definitions. Compare happy's past tense "something
-good happened to me" to contented's present tense "something good *is happening* to me" to pleased's
+good happened to me" to contented's present tense "something good _is happening_ to me" to pleased's
 "something good happened," which doesn't specify the subject. The first contrast is not present in
 the Oxford Languages definitions. The second contrast is implicit in "especially at an event or a situation."
 
 # Motivation for this post
+
 In the winter quarter of my freshman year of undergrad, I learned a lot about language. That quarter
 I learned four programming languages. In Dan
-Grossman's *Programming Languages* (PL) class (taught by James Wilcox that quarter) I learned SML
+Grossman's _Programming Languages_ (PL) class (taught by James Wilcox that quarter) I learned SML
 (the other ML),
 Ruby, and Racket (with a little bit of Haskell thrown into our final assignment for good measure).
-In *The Hardware/Software Interface* (taught by Luis Ceze that quarter) I learned C. At the same time,
-I was taking Katarzyna Dziwirek's *Ways of Meaning*, which covers the diversity of culture through
+In _The Hardware/Software Interface_ (taught by Luis Ceze that quarter) I learned C. At the same time,
+I was taking Katarzyna Dziwirek's _Ways of Meaning_, which covers the diversity of culture through
 the lens of language.
 
 In my PL class, we were encouraged to compare and contrast the different languages we were learning,

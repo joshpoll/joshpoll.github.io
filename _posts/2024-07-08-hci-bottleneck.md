@@ -1,6 +1,8 @@
 ---
 title: "HCI Is the Bottleneck"
 excerpt_separator: "<!--more-->"
+tags:
+  - Uppercase
 categories:
   - Blog
 ---
