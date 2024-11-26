@@ -23,21 +23,21 @@ feature_row:
   # - image_path: /assets/images/mm-responsive-feature.png
   #   alt: "fully responsive"
   - title: "interbeing"
-    excerpt: "Prefers clusters over categories. Identifies larger spaces or fabrics where clusters live. Rather than seeking to separate phenomena, activities that embody interbeing seek to understand how phenomena are connected."
+    excerpt: "Prefers clusters over categories. Identifies larger spaces or fabrics where clusters live. Rather than seeking to separate phenomena, activities that embody interbeing seek to understand how phenomena are connected. (This term comes from [the Plum Village Buddhist tradition](https://en.wikipedia.org/wiki/Interbeing).)"
     # url: "/docs/layouts/"
     # btn_class: "btn--primary"
     # btn_label: "Learn more"
   # - image_path: /assets/images/mm-free-feature.png
   #   alt: "100% free"
   - title: "aliveness"
-    excerpt: 'Promotes authentic self-expression, connection, and joy. Contributes to being fully present and engaged in the world. Dissolves "should"s, fear, and other emotional blockers and constrictions.'
+    excerpt: 'Promotes authentic self-expression, connection, and joy. Contributes to being fully present and engaged in the world. Dissolves "should"s, fear, and other emotional blockers, constrictions, and hindrances.'
     # url: "/docs/license/"
     # btn_class: "btn--primary"
     # btn_label: "Learn more"
 ---
 
 I like doing research. My research so far has been in programming languages (PL), human-computer
-interaction (HCI), and data visualization (VIS). I especially like building systems that formalize,
+interaction (HCI), and data visualization (VIS). I especially like building _systems_ that formalize,
 clarify, and operationalize research ideas.
 
 The activities that excite me tend to have these three qualities:
