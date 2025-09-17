@@ -3,7 +3,7 @@ permalink: /about/
 title: ".about"
 ---
 
-Hi! I'm Josh Pollock, a fifth year PhD student at MIT. I work on domain-specific languages for
+Hi! I'm Josh Pollock, a sixth year PhD student at MIT. I work on domain-specific languages for
 visualization in the VIS group with Arvind Satyanarayan.
 
 My current interest is in helping people create and reason about all kinds of visualizations, not

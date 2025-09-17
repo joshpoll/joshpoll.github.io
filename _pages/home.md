@@ -10,7 +10,7 @@ classes: wide
 #   actions:
 #     - label: "<i class='fas fa-download'></i> Install now"
 #       url: "/docs/quick-start-guide/"
-# excerpt: "I'm a fifth year PhD student at MIT. I work on domain-specific languages for graphic representations."
+# excerpt: "I'm a sixth year PhD student at MIT. I work on domain-specific languages for graphic representations."
 feature_row:
   # - image_path: /assets/images/mm-customizable-feature.png
   #   alt: "customizable"
