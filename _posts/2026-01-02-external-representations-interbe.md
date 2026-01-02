@@ -75,7 +75,7 @@ Here's a [pretty printing paper](https://jyp.github.io/pdf/Prettiest.pdf) I real
 especially love these diagrams of how the algorithm represents pieces of text. I think it's really
 cool how there are no characters of text inside the blocks!
 
-![pretty printer visual representation](../assets/images/pretty-printer.png)
+![pretty printer visual representation](../../assets/images/pretty-printer.png)
 
 In visualization we have papers that look at automatically choosing a
 visualization given the available display space. Eg this [constraint-based breakpoints
