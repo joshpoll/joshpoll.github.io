@@ -71,10 +71,16 @@ superposition of multiple possible layouts. After you've constructed a set of al
 extract an "optimal" alternative from the set. These layout strategies have techniques for making
 this process efficient using dynamic programming and pruning.
 
-But what I find interesting is that we also have papers that look at automatically choosing a
-visualization given the available display space. Eg this [constraint-based breakpoints paper](https://ieeexplore.ieee.org/abstract/document/10549863) from the most recent VIS.
+Here's a [pretty printing paper](https://jyp.github.io/pdf/Prettiest.pdf) I really like. I
+especially love these diagrams of how the algorithm represents pieces of text. I think it's really
+cool how there are no characters of text inside the blocks!
 
-I imagine there might be some bridges here.
+![pretty printer visual representation](../assets/images/pretty-printer.png)
+
+In visualization we have papers that look at automatically choosing a
+visualization given the available display space. Eg this [constraint-based breakpoints
+paper](https://ieeexplore.ieee.org/abstract/document/10549863) from the most recent VIS. This
+strikes me as being a very similar problem, and I imagine there might be some bridges here.
 
 # Inspiration for this post
 
