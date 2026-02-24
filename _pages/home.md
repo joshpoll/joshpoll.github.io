@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /
+permalink: /index/
 title: "Hello!"
 classes: wide
 
