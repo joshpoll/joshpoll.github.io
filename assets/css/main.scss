@@ -1,0 +1,104 @@
+---
+# Only the main stylesheet no need to use main_scss
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+.project-card {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-color: #bbb;
+  }
+}
+
+.project-card__overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.project-card__image {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.project-card__title {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 0.25rem;
+}
+
+.project-card .project-card__desc {
+  font-size: 0.9em;
+  color: #555;
+  margin: 0;
+}
+
+.book-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.book-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-color: #bbb;
+  }
+}
+
+.book-card__overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.book-card img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+.book-card__info {
+  padding: 0.5rem;
+}
+
+.book-card__title {
+  font-size: 0.8em;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-bottom: 0.2rem;
+}
+
+.book-card__author {
+  font-size: 0.75em;
+  color: #666;
+  margin: 0;
+}
